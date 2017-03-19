@@ -57,6 +57,7 @@ body{
   margin-right: auto;
   max-width: 918px;
   height: 220px;
+  margin-top: 10px;
 }
 
 .about h1{
@@ -66,16 +67,17 @@ body{
 }
 
 .about p{
-  padding: 18px 10px;
+  overflow: hidden;
   font-family: sans-serif;
   float: left;
-
+  width: 650px;
 }
 
-.img{
-  align: left;
-  clear: right;
+.image{
+  float: left;
+  margin: 10px;
 }
+
 .text{
   background-color: #dbd8c5;
   height: 612px;
@@ -83,6 +85,7 @@ body{
   margin-right: auto;
   max-width: 752px;
   float: left;
+  margin-top: 10px;
 }
 
 .text p{
@@ -104,6 +107,7 @@ body{
   margin-right: auto;
   max-width: 250px;
   float: left;
+  margin-top: 10px;
 }
 
 .sidebar ol{
